@@ -2,3 +2,8 @@ body
 { 
 	background-color: #F0F5F5r;
 }
+
+p {
+text-align : justify;
+font-family : Arial, 'Time New Roman';
+}
