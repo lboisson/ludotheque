@@ -3,9 +3,9 @@
 	<head>
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
-		<title> Ludothèque - Catalogue </title>
+		<title> Ludothèque - Accueil </title>
 	</head>
-
+	
 	<body>
 		<div class="titre">
 			<a href="index.html">
@@ -21,18 +21,15 @@
 				<li><a href="about.html"><p>About</p></a></li>
 			</ul>
 		</div>
-
-		<div class="corps">
-			<h2>La liste des jeux</h2>
-			<br />
-			<h3>Super jeu de voitures</h3>
-			<p><b>Super jeu de voitures</b> est un jeu de courses de voitures.</p>
-			<h3>Super jeu de puzzles</h3>
-			<p><b>Super jeu de puzzles</b> est un jeu de résolutions de puzzles.</p>
-			<h3>Super jeu de guerre</h3>
-			<p><b>Super jeu de puzzles</b> est un jeu de simulation de guerre.</p>
-		</div>
 		
+		<div class="corps">
+			<p>Saisissez votre login : nous vous enverrons votre mot de passe sur votre adresse mail.</p><br /> <br />
+			<p>
+				<form method="post" action="mdp_oublie.php">
+					<input name="login" placeholder="Login" /><br /> <br />
+					<input type="submit" value"Envoyer" name="envoyer" /><br /> <br />
+				</form>
+			</p>
+		</div>
 	</body>
-
 </html>

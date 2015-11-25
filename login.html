@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
-		<title> Ludothèque - Catalogue </title>
+		<title> Ludothèque - Accueil </title>
 	</head>
 
 	<body>
@@ -12,7 +12,6 @@
 				<h1> Super ludothèque <span>Location de Jeux</span></h1>
 			</a>
 		</div>
-		
 		<div class="navbar">
 			<ul class="onglet">
 				<li><a href="stock.html"><p>Jeux en stock</p></a> </li>
@@ -21,18 +20,19 @@
 				<li><a href="about.html"><p>About</p></a></li>
 			</ul>
 		</div>
-
-		<div class="corps">
-			<h2>La liste des jeux</h2>
-			<br />
-			<h3>Super jeu de voitures</h3>
-			<p><b>Super jeu de voitures</b> est un jeu de courses de voitures.</p>
-			<h3>Super jeu de puzzles</h3>
-			<p><b>Super jeu de puzzles</b> est un jeu de résolutions de puzzles.</p>
-			<h3>Super jeu de guerre</h3>
-			<p><b>Super jeu de puzzles</b> est un jeu de simulation de guerre.</p>
-		</div>
 		
+		<div class="corps">
+			<h2>Vos identifiants :</h2>
+			<p>
+				<form method="post" action="login.php">
+					<input name="login" placeholder="Login" /><br /> <br />
+					<input type="password" name="password" placeholder="Mot de passe"/><br /> <br />
+					<input type="submit" value"Envoyer" name="envoyer" /><br /> <br />
+				</form>
+			</p>
+			<p><a href="mdp_oublie.html"><strong>Mot de passe oublié ?</strong></a></p><br /> 
+			<p><a href="nouv_compte.html"><strong>Creer un compte</strong></a></p><br /> <br />
+				
+		</div>
 	</body>
-
 </html>
